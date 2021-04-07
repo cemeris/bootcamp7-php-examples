@@ -11,6 +11,9 @@
         <li class="nav-item">
           <a class="nav-link <?= ($page === 'tictactoe') ? "active": ''; ?>" href="tictactoe.php">#2 tictactoe</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link <?= ($page === 'four_in_line') ? "active": ''; ?>" href="four_in_line.php">#3 four_in_line</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Language

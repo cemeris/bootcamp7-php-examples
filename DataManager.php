@@ -39,4 +39,9 @@ class DataManager
 
         return $count;
     }
+
+    public function deleteAll() {
+        $this->table = [];
+        file_put_contents($this->file_name, '');
+    }
 }
